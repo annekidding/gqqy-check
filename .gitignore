@@ -1,0 +1,27 @@
+# 运行时产物（脚本自动生成，可安全删除后重跑）
+*.csv
+rows.json
+quick-detail.json
+detail.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# 依赖 / 工具
+node_modules/
+package-lock.json
+
+# 自测临时目录
+quick-selftest-*/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
